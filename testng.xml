@@ -9,6 +9,7 @@
             <class name="apiTest.ValidateGetRequest"/>
             <class name="apiTest.ValidatePutRequest"/>
             <class name="apiTest.ValidateDeleteRequest"/>
+            <class name="apiTest.newvalidation"/>
         </classes>
 
 
