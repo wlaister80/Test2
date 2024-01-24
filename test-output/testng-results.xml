@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-24T07:51:22 IST" name="Single" finished-at="2024-01-24T07:51:33 IST" duration-ms="11164">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T07:51:22 IST" name="SingleTest" finished-at="2024-01-24T07:51:33 IST" duration-ms="11164">
+      <class name="apiTest.ValidateDeleteRequest">
+        <test-method signature="VerifyResponseCodeForDeleteRequest()[pri:0, instance:apiTest.ValidateDeleteRequest@51e69659]" started-at="2024-01-24T07:51:32 IST" name="VerifyResponseCodeForDeleteRequest" finished-at="2024-01-24T07:51:33 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyResponseCodeForDeleteRequest -->
+      </class> <!-- apiTest.ValidateDeleteRequest -->
+      <class name="apiTest.ValidatePostMethod">
+        <test-method signature="validateIDValueInResponseOfPostMethod()[pri:0, instance:apiTest.ValidatePostMethod@31fa1761]" started-at="2024-01-24T07:51:22 IST" name="validateIDValueInResponseOfPostMethod" finished-at="2024-01-24T07:51:25 IST" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIDValueInResponseOfPostMethod -->
+        <test-method signature="validateResponseCodeInPostMethod()[pri:0, instance:apiTest.ValidatePostMethod@31fa1761]" started-at="2024-01-24T07:51:25 IST" name="validateResponseCodeInPostMethod" finished-at="2024-01-24T07:51:26 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseCodeInPostMethod -->
+        <test-method signature="validateResponseUsingAssert()[pri:0, instance:apiTest.ValidatePostMethod@31fa1761]" started-at="2024-01-24T07:51:26 IST" name="validateResponseUsingAssert" finished-at="2024-01-24T07:51:26 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseUsingAssert -->
+        <test-method signature="validateTitleValueInResponseOfPostMethod()[pri:0, instance:apiTest.ValidatePostMethod@31fa1761]" started-at="2024-01-24T07:51:26 IST" name="validateTitleValueInResponseOfPostMethod" finished-at="2024-01-24T07:51:27 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleValueInResponseOfPostMethod -->
+      </class> <!-- apiTest.ValidatePostMethod -->
+      <class name="apiTest.ValidateGetRequest">
+        <test-method signature="verifyIDValueInResponseOfGivenGetRequest()[pri:0, instance:apiTest.ValidateGetRequest@82de64a]" started-at="2024-01-24T07:51:27 IST" name="verifyIDValueInResponseOfGivenGetRequest" finished-at="2024-01-24T07:51:28 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIDValueInResponseOfGivenGetRequest -->
+        <test-method signature="verifyResponseCodeOfGivenGetRequest()[pri:0, instance:apiTest.ValidateGetRequest@82de64a]" started-at="2024-01-24T07:51:28 IST" name="verifyResponseCodeOfGivenGetRequest" finished-at="2024-01-24T07:51:28 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseCodeOfGivenGetRequest -->
+        <test-method signature="verifyResponseCodeOfInValidGetRequest()[pri:0, instance:apiTest.ValidateGetRequest@82de64a]" started-at="2024-01-24T07:51:28 IST" name="verifyResponseCodeOfInValidGetRequest" finished-at="2024-01-24T07:51:29 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseCodeOfInValidGetRequest -->
+        <test-method signature="verifyResponseUsingAssert()[pri:0, instance:apiTest.ValidateGetRequest@82de64a]" started-at="2024-01-24T07:51:29 IST" name="verifyResponseUsingAssert" finished-at="2024-01-24T07:51:30 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseUsingAssert -->
+        <test-method signature="verifyTitleValueInResponseOfGivenGetRequest()[pri:0, instance:apiTest.ValidateGetRequest@82de64a]" started-at="2024-01-24T07:51:30 IST" name="verifyTitleValueInResponseOfGivenGetRequest" finished-at="2024-01-24T07:51:30 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleValueInResponseOfGivenGetRequest -->
+      </class> <!-- apiTest.ValidateGetRequest -->
+      <class name="apiTest.ValidatePutRequest">
+        <test-method signature="verifyChangeInResponseOfPutRequest()[pri:0, instance:apiTest.ValidatePutRequest@659499f1]" started-at="2024-01-24T07:51:30 IST" name="verifyChangeInResponseOfPutRequest" finished-at="2024-01-24T07:51:31 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangeInResponseOfPutRequest -->
+        <test-method signature="verifyResponseCodeOfPutRequest()[pri:0, instance:apiTest.ValidatePutRequest@659499f1]" started-at="2024-01-24T07:51:31 IST" name="verifyResponseCodeOfPutRequest" finished-at="2024-01-24T07:51:32 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseCodeOfPutRequest -->
+        <test-method signature="verifyResponseOfGivenGetRequest()[pri:0, instance:apiTest.ValidatePutRequest@659499f1]" started-at="2024-01-24T07:51:32 IST" name="verifyResponseOfGivenGetRequest" finished-at="2024-01-24T07:51:32 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseOfGivenGetRequest -->
+      </class> <!-- apiTest.ValidatePutRequest -->
+    </test> <!-- SingleTest -->
+  </suite> <!-- Single -->
+</testng-results>
